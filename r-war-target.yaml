@@ -1,0 +1,328 @@
+backgroundOrder:
+- 13
+- 44
+- 52
+- 19
+- 18
+- 17
+- 11
+- 12
+- 14
+- 15
+- 16
+- 45
+- 9
+- 51
+- 50
+- 48
+- 53
+- 49
+- 10
+- 20
+- 21
+- 66
+backgroundStates:
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 44
+- 45
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+columnOrder:
+- ICON
+- TAG
+- DISTANCE
+- NAME
+- TYPE
+- ALLIANCE
+- CORPORATION
+- FACTION
+- MILITIA
+- SIZE
+- VELOCITY
+- RADIALVELOCITY
+- TRANSVERSALVELOCITY
+- ANGULARVELOCITY
+flagOrder:
+- 13
+- 44
+- 52
+- 19
+- 18
+- 17
+- 11
+- 12
+- 14
+- 15
+- 16
+- 45
+- 9
+- 51
+- 50
+- 53
+- 49
+- 10
+- 48
+- 21
+- 20
+- 66
+flagStates:
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 44
+- 45
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+overviewColumns:
+- ALLIANCE
+- DISTANCE
+- ICON
+- NAME
+- TRANSVERSALVELOCITY
+- TYPE
+- VELOCITY
+presets:
+- - <color=0xFFff4d94> ⌾ War Targets Only </color>
+  - - - alwaysShownStates
+      - - 13
+    - - filteredStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 45
+        - 48
+        - 49
+    - - groups
+      - - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 237
+        - 324
+        - 335
+        - 358
+        - 380
+        - 381
+        - 419
+        - 420
+        - 463
+        - 485
+        - 492
+        - 513
+        - 540
+        - 541
+        - 543
+        - 547
+        - 659
+        - 830
+        - 831
+        - 832
+        - 833
+        - 834
+        - 883
+        - 893
+        - 894
+        - 898
+        - 900
+        - 902
+        - 906
+        - 934
+        - 941
+        - 963
+        - 1004
+        - 1022
+        - 1081
+        - 1082
+        - 1149
+        - 1201
+        - 1202
+        - 1249
+        - 1274
+        - 1283
+        - 1305
+        - 1312
+        - 1527
+        - 1534
+        - 1538
+        - 1972
+        - 2001
+        - 4594
+shipLabelOrder:
+- ship type
+- alliance
+- corporation
+- ship name
+- null
+- pilot name
+shipLabels:
+- - null
+  - - - post
+      - ''
+    - - pre
+      - '['
+    - - state
+      - 0
+    - - type
+      - null
+- - alliance
+  - - - post
+      - )  </font size></color>
+    - - pre
+      - ' <font size=12><color="0xffFF66CC">('
+    - - state
+      - 1
+    - - type
+      - alliance
+- - corporation
+  - - - post
+      - ']</color>'
+    - - pre
+      - ' <color="0xff33FF99">['
+    - - state
+      - 0
+    - - type
+      - corporation
+- - pilot name
+  - - - post
+      - ' </color> '
+    - - pre
+      - ' <color="0xffCCFF99"> '
+    - - state
+      - 1
+    - - type
+      - pilot name
+- - ship name
+  - - - post
+      - ''''
+    - - pre
+      - ' '''
+    - - state
+      - 0
+    - - type
+      - ship name
+- - ship type
+  - - - post
+      - '</font size></color> '
+    - - pre
+      - <font size=12><color="0xff9999FF">
+    - - state
+      - 1
+    - - type
+      - ship type
+stateBlinks:
+- - background_13
+  - false
+- - background_44
+  - false
+- - flag_13
+  - true
+- - flag_44
+  - true
+- - flag_50
+  - false
+- - flag_51
+  - true
+- - flag_52
+  - true
+- - flag_9
+  - true
+stateColorsNameList:
+- - background_10
+  - white
+- - background_12
+  - green
+- - background_15
+  - darkBlue
+- - background_16
+  - blue
+- - background_17
+  - yellow
+- - background_18
+  - orange
+- - background_20
+  - white
+- - background_21
+  - white
+- - background_44
+  - red
+- - background_45
+  - blue
+- - background_48
+  - yellow
+- - background_49
+  - blue
+- - background_50
+  - orange
+- - background_51
+  - orange
+- - background_52
+  - orange
+- - background_9
+  - orange
+- - flag_48
+  - white
+tabSetup:
+- - 0
+  - - - bracket
+      - null
+    - - name
+      - <fontsize=16><b><color=0xFFe121c6>☛</fontsize></b></color>
+    - - overview
+      - <color=0xFFff4d94> ⌾ War Targets Only </color>
+- - 1
+  - - - bracket
+      - null
+    - - name
+      - '<fontsize=12><color=0xFF97e32b><b> War Targets Pack loaded </b></color></fontsize>
+
+        <fontsize=12><color=0xFFf007ff><b> Select an overview layout </b></color></fontsize>
+
+        <fontsize=12><color=0xFF21dce1><b> Or select more packs! </b></color></fontsize>'
+    - - overview
+      - <color=0xFFff4d94> ⌾ War Targets Only </color>
+- - 2
+  - - - bracket
+      - null
+    - - name
+      - ' <fontsize=16><b><color=0xFFe121c6>☚</fontsize></b></color>'
+    - - overview
+      - <color=0xFFff4d94> ⌾ War Targets Only </color>
+userSettings: []

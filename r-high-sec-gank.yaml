@@ -1,0 +1,327 @@
+backgroundOrder:
+- 13
+- 44
+- 52
+- 19
+- 18
+- 17
+- 11
+- 12
+- 14
+- 15
+- 16
+- 45
+- 9
+- 51
+- 50
+- 48
+- 53
+- 49
+- 10
+- 20
+- 21
+- 66
+backgroundStates:
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 44
+- 45
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+columnOrder:
+- ICON
+- TAG
+- DISTANCE
+- NAME
+- TYPE
+- ALLIANCE
+- CORPORATION
+- FACTION
+- MILITIA
+- SIZE
+- VELOCITY
+- RADIALVELOCITY
+- TRANSVERSALVELOCITY
+- ANGULARVELOCITY
+flagOrder:
+- 13
+- 44
+- 52
+- 19
+- 18
+- 17
+- 11
+- 12
+- 14
+- 15
+- 16
+- 45
+- 9
+- 51
+- 50
+- 48
+- 53
+- 49
+- 10
+- 21
+- 20
+- 66
+flagStates:
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 44
+- 45
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+overviewColumns:
+- ALLIANCE
+- DISTANCE
+- ICON
+- NAME
+- TRANSVERSALVELOCITY
+- TYPE
+- VELOCITY
+presets:
+- - '<color=0xffff1a1a> ☩ Hostile: Mission Runners </color>'
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 45
+    - - groups
+      - - 26
+        - 27
+        - 335
+        - 358
+        - 419
+        - 492
+        - 900
+        - 934
+        - 963
+        - 1004
+        - 1081
+        - 1082
+        - 1149
+        - 1249
+        - 1274
+        - 1312
+- - '<color=0xffff1a1a> ☩ Hostile: Mining Barges / Exhumers </color>'
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 45
+    - - groups
+      - - 335
+        - 463
+        - 492
+        - 543
+        - 934
+        - 1004
+        - 1081
+        - 1082
+        - 1149
+        - 1249
+        - 1274
+        - 1312
+- - '<color=0xffff1a1a> ☩ Hostile: Freighters / JFs / Orcas </color>'
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 45
+    - - groups
+      - - 335
+        - 492
+        - 513
+        - 902
+        - 934
+        - 941
+        - 1004
+        - 1081
+        - 1082
+        - 1149
+        - 1249
+        - 1274
+        - 1312
+shipLabelOrder:
+- ship type
+- alliance
+- corporation
+- ship name
+- null
+- pilot name
+shipLabels:
+- - null
+  - - - post
+      - ''
+    - - pre
+      - '['
+    - - state
+      - 0
+    - - type
+      - null
+- - alliance
+  - - - post
+      - )  </font size></color>
+    - - pre
+      - ' <font size=12><color="0xffFF66CC">('
+    - - state
+      - 1
+    - - type
+      - alliance
+- - corporation
+  - - - post
+      - ']</color>'
+    - - pre
+      - ' <color="0xff33FF99">['
+    - - state
+      - 0
+    - - type
+      - corporation
+- - pilot name
+  - - - post
+      - ' </color> '
+    - - pre
+      - ' <color="0xffCCFF99"> '
+    - - state
+      - 1
+    - - type
+      - pilot name
+- - ship name
+  - - - post
+      - ''''
+    - - pre
+      - ' '''
+    - - state
+      - 0
+    - - type
+      - ship name
+- - ship type
+  - - - post
+      - '</font size></color> '
+    - - pre
+      - <font size=12><color="0xff9999FF">
+    - - state
+      - 1
+    - - type
+      - ship type
+stateBlinks:
+- - background_13
+  - false
+- - background_44
+  - false
+- - flag_13
+  - true
+- - flag_44
+  - true
+- - flag_50
+  - false
+- - flag_51
+  - true
+- - flag_52
+  - true
+- - flag_9
+  - true
+stateColorsNameList:
+- - background_10
+  - white
+- - background_12
+  - green
+- - background_15
+  - darkBlue
+- - background_16
+  - blue
+- - background_18
+  - orange
+- - background_20
+  - white
+- - background_21
+  - white
+- - background_44
+  - red
+- - background_45
+  - blue
+- - background_48
+  - white
+- - background_49
+  - blue
+- - background_50
+  - orange
+- - background_51
+  - orange
+- - background_52
+  - orange
+- - background_9
+  - orange
+- - flag_48
+  - white
+tabSetup:
+- - 0
+  - - - bracket
+      - '<color=0xFFbc2be3> • Brackets: Blues/Hostiles ( -drones +fighters )</color>'
+    - - name
+      - <fontsize=16><b><color=0xFFe121c6>☛</fontsize></b></color>
+    - - overview
+      - '<color=0xffff1a1a> ☩ Hostile: Mission Runners </color>'
+- - 1
+  - - - bracket
+      - '<color=0xFFbc2be3> • Brackets: Blues/Hostiles ( -drones +fighters )</color>'
+    - - name
+      - '<fontsize=12><color=0xFF97e32b><b> High-Sec Ganking Pack loaded </b></color></fontsize>
+
+        <fontsize=12><color=0xFFf007ff><b> Select an overview layout </b></color></fontsize>
+
+        <fontsize=12><color=0xFF21dce1><b> Or select more packs! </b></color></fontsize>'
+    - - overview
+      - '<color=0xffff1a1a> ☩ Hostile: Freighters / JFs / Orcas </color>'
+- - 2
+  - - - bracket
+      - '<color=0xFFbc2be3> • Brackets: Blues/Hostiles ( -drones +fighters )</color>'
+    - - name
+      - ' <fontsize=16><b><color=0xFFe121c6>☚</fontsize></b></color>'
+    - - overview
+      - '<color=0xffff1a1a> ☩ Hostile: Freighters / JFs / Orcas </color>'
+userSettings: []
